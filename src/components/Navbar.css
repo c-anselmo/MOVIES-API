@@ -1,0 +1,70 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(138, 29, 240); 
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 48px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+input{
+    border-radius: 18px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 28px;
+    padding: 5px;
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    font-size: 36px;
+    cursor: pointer;
+    padding: 2px;
+    transition: .3s;
+    color: goldenrod; 
+}
+
+button:hover{
+    color: gold;
+    transition: .3s;
+}
+
+.link:hover{
+    color: goldenrod;
+}
+
+@media (max-width: 550px) {
+    .navbar{
+        flex-direction: column;
+    }
+
+    .link{
+        font-size: 36px;
+    }
+
+    input{
+        font-size: 16px;
+    }
+
+    button{
+        font-size: 24px;
+    }
+}

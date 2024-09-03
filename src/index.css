@@ -1,0 +1,17 @@
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #100f0f;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
